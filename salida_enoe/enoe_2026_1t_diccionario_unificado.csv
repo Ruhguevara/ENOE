@@ -1,0 +1,525 @@
+columna,modulo_origen,variable_original,descripcion,dtype,no_nulos_%,n_unicos
+r_def,sdem,r_def,Resultado definitivo de la entrevista,int64,100.0,1
+cve_loc,sdem,cve_loc,Número de la localidad,string,0.0,0
+cve_mun,sdem,cve_mun,Número de municipio según entidad,string,99.2,220
+est,sdem,est,Estrato nacional y estatal,int64,100.0,4
+est_d_tri,sdem,est_d_tri,Estrato de diseño trimestral,int64,100.0,723
+est_d_men,sdem,est_d_men,Estrato de diseño mensual,object,100.0,724
+cve_ageb,sdem,cve_ageb,Número de ageb del marco nacional,string,100.0,1
+t_loc_tri,sdem,t_loc_tri,Tamaño de localidad trimestral,int64,100.0,4
+t_loc_men,sdem,t_loc_men,Tamaño de localidad mensual,object,100.0,5
+cd_a,sdem,cd_a,Ciudad autorrepresentada,string,100.0,45
+cve_ent,sdem,cve_ent,Entidad federativa,object,100.0,32
+con,sdem,con,Control,string,100.0,1842
+upm,sdem,upm,Unidad primaria de muestreo,string,100.0,21171
+d_sem,sdem,d_sem,Distribución semanal,string,100.0,65
+n_pro_viv,sdem,n_pro_viv,Número progresivo de la vivienda,string,100.0,471
+v_sel,sdem,v_sel,Vivienda seleccionada,string,100.0,67
+n_hog,sdem,n_hog,Número de hogar,string,100.0,4
+h_mud,sdem,h_mud,Hogar mudado,string,100.0,5
+n_ent,sdem,n_ent,Número de entrevista o visita,string,100.0,5
+per,sdem,per,Periodo,string,100.0,1
+n_ren,sdem,n_ren,Número de renglón,string,100.0,23
+c_res,sdem,c_res,Pregunta 6 Condición de residencia,int64,100.0,2
+par_c,sdem,par_c,Pregunta 7 Clave de parentesco,object,100.0,40
+sex,sdem,sex,Pregunta 8 Sexo,object,100.0,2
+eda,sdem,eda,Pregunta 9 Edad,float64,100.0,99
+nac_dia,sdem,nac_dia,Pregunta 10 Día de nacimiento,object,100.0,32
+nac_mes,sdem,nac_mes,Pregunta 10 Mes de nacimiento,object,100.0,13
+nac_anio,sdem,nac_anio,Pregunta 10 Año de nacimiento,object,100.0,108
+l_nac_c,sdem,l_nac_c,Pregunta 11 Clave de lugar de nacimiento,object,100.0,42
+cs_p12,sdem,cs_p12,Pregunta 12  ¿Sabe leer y escribir un recado...?,object,100.0,4
+cs_p13_1,sdem,cs_p13_1,Pregunta 13  ¿Hasta qué año aprobó... en la escuela?,object,100.0,12
+cs_p13_2,sdem,cs_p13_2,Pregunta 13  ¿Hasta qué año aprobó... en la escuela?,object,100.0,11
+cs_p14_c,sdem,cs_p14_c,Pregunta 14 Clave de la carrera,object,100.0,179
+cs_p15,sdem,cs_p15,Pregunta 15  ¿Qué estudios le pidieron a ... para ingresar a esta carrera?,object,100.0,5
+cs_p16,sdem,cs_p16,Pregunta 16  ¿...Terminó los estudios o materias de esta carrera?,object,100.0,4
+cs_p17,sdem,cs_p17,Pregunta 17  ¿... Asiste actualmente a la escuela?,object,100.0,4
+n_hij,sdem,n_hij,Pregunta 18 En total cuántas hijas e hijos que nacieron vivos ha tenido,object,100.0,26
+e_con,sdem,e_con,Pregunta 19 Estado conyugal,object,100.0,8
+cs_p20a_1,sdem,cs_p20a_1,Pregunta 20a Entidad o país de residencia hace un año,object,100.0,5
+cs_p20a_c,sdem,cs_p20a_c,Pregunta 20a Clave de entidad o país de residencia hace un año,object,100.0,51
+cs_p20b_1,sdem,cs_p20b_1,Pregunta 20b Municipio de residencia hace un año,object,100.0,3
+cs_p20b_c,sdem,cs_p20b_c,Pregunta 20b Clave de municipio de residencia hace un año,object,100.0,263
+cs_p20c_1,sdem,cs_p20c_1,Pregunta 20c Causa de la migración,object,100.0,12
+cs_ad_mot,sdem,cs_ad_mot,Pregunta 21 Motivos de la ausencia,object,100.0,1
+cs_p21_des,sdem,cs_p21_des,Pregunta 21 Especificación de otro motivo,object,100.0,1
+cs_ad_des,sdem,cs_ad_des,Pregunta 22  ¿A qué estado de la república o país se fue ...?,object,100.0,1
+cs_nr_mot,sdem,cs_nr_mot,Pregunta 23  ¿Cuál es el motivo principal por el que llegó ...?,object,100.0,11
+cs_p23_des,sdem,cs_p23_des,Pregunta 23 Especificación del otro motivo,object,100.0,220
+cs_nr_ori,sdem,cs_nr_ori,Pregunta 24  ¿De qué estado de la República Mexicana o país vino ...?,object,100.0,5
+ur,sdem,ur,Urbano/Rural,string,100.0,2
+zona,sdem,zona,Zona salarial,int64,100.0,2
+salario,sdem,salario,Salario mínimo mensual según la zona salarial,int64,100.0,2
+fac_tri,sdem,fac_tri,Ponderador trimestral,int64,100.0,1755
+fac_men,sdem,fac_men,Ponderador mensual,int64,100.0,3553
+clase1,sdem,clase1,Clasificación de la población en PEA y PNEA,int64,100.0,3
+clase2,sdem,clase2,Clasificación de la población en ocupada y desocupada; disponible y no disponible,int64,100.0,5
+clase3,sdem,clase3,"Clasificación de la población en ocupada plena, sin pago, ausente con nexo laboral y retorno, desocupada, iniciadora con búsqueda y ausente sin ingreso y nexo laboral",int64,100.0,8
+pos_ocu,sdem,pos_ocu,Clasificación de la población ocupada por posición en la ocupación,int64,100.0,5
+seg_soc,sdem,seg_soc,Clasificación de la población ocupada por condición de acceso a instituciones de salud,int64,100.0,4
+rama,sdem,rama,Clasificación de la población ocupada por sector de actividad económica,int64,100.0,8
+c_ocu11c,sdem,c_ocu11c,Clasificación de la población ocupada por condición de ocupación,int64,100.0,12
+ing7c,sdem,ing7c,Clasificación de la población ocupada por nivel de ingreso,int64,100.0,8
+dur9c,sdem,dur9c,Clasificación de la población ocupada por la duración de la jornada,int64,100.0,10
+emple7c,sdem,emple7c,Clasificación de la población ocupada por número de trabajadores,int64,100.0,8
+medica5c,sdem,medica5c,Clasificación de la población ocuapda por prestaciones de salud,int64,100.0,6
+buscar5c,sdem,buscar5c,Clasificación de la población ocupada por búsqueda de otro empleo,int64,100.0,6
+rama_est1,sdem,rama_est1,Clasificación de la población ocuapda según sector de actividades-Totales,int64,100.0,5
+rama_est2,sdem,rama_est2,Clasificación de la población según sector de actividades-Subtotales,int64,100.0,12
+dur_est,sdem,dur_est,Clasificación de la población ocupada por duración de la jornada laboral,int64,100.0,7
+ambito1,sdem,ambito1,Clasificación de la población ocupada según el tamaño de la unidad económica-Totales,int64,100.0,4
+ambito2,sdem,ambito2,Clasificación de la población ocupada por tamaño de la unidad económica-Subtotales,int64,100.0,8
+tue1,sdem,tue1,Clasificación de la población ocupada por tipo de unidad económica-Totales,int64,100.0,5
+tue2,sdem,tue2,Clasificación de la población ocupada por tipo de unidad económica-Subtotales,int64,100.0,8
+tue3,sdem,tue3,Clasificación de la población ocupada por tipo de unidad,int64,100.0,3
+busqueda,sdem,busqueda,Clasificación de la población ocupada buscador de otro trabajo,int64,100.0,3
+d_ant_lab,sdem,d_ant_lab,Clasificación de la población desocupada por antecedentes,int64,100.0,3
+d_cexp_est,sdem,d_cexp_est,Clasificación de la población desocupada por condición de desocupación,int64,100.0,5
+dur_des,sdem,dur_des,Clasificación de la duración del desempleo,int64,100.0,7
+sub_o,sdem,sub_o,Población subocupada,int64,100.0,2
+s_clasifi,sdem,s_clasifi,Clasificación de la población subocupada,int64,100.0,7
+remune2c,sdem,remune2c,Población subordinada y remunerada,int64,100.0,3
+pre_asa,sdem,pre_asa,Población subordinada y remunerada por prestaciones laborales (sin considerar el acceso a las instituciones de salud),int64,100.0,4
+tip_con,sdem,tip_con,Clasificación de la población subordinada y remunerada por disponibilidad de contrato escrito,int64,100.0,6
+dispo,sdem,dispo,Población no económicamente activa disponible,int64,100.0,7
+nodispo,sdem,nodispo,Población no económicamente activa no disponible,int64,100.0,8
+c_inac5c,sdem,c_inac5c,Clasificación de la población no económicamente activa no disponible por condición de inacividad,int64,100.0,6
+pnea_est,sdem,pnea_est,Composición de la población no económicamente activa,int64,100.0,7
+niv_ins,sdem,niv_ins,Clasificación de la población de 5 años y más por nivel de instrucción,int64,100.0,6
+eda5c,sdem,eda5c,Clasificación de la población de 15 años y más: Grupo edad 5 claves,int64,100.0,6
+eda7c,sdem,eda7c,Clasificación de la población de 15 años y más: Grupo edad 7 claves,int64,100.0,8
+eda12c,sdem,eda12c,Clasificación de la población de 15 años y más: Grupo edad 12 claves,int64,100.0,13
+eda19c,sdem,eda19c,Clasificación de la población total en grupos de edad,int64,100.0,19
+hij5c,sdem,hij5c,Clasificación de la población femenina de 15 años y más por número de hijos,int64,100.0,6
+domestico,sdem,domestico,Clasificación de la población de 15 años y más por condición de actividad e inactividad,int64,100.0,11
+anios_esc,sdem,anios_esc,Años de escolaridad,float64,99.7,25
+hrsocup,sdem,hrsocup,Horas trabajadas en la semana,int64,100.0,122
+ingocup,sdem,ingocup,Ingreso mensual,int64,100.0,1490
+ing_x_hrs,sdem,ing_x_hrs,Promedio de ingreso por hora trabajada,float64,100.0,6003
+tpg_p8a,sdem,tpg_p8a,Sí buscó trabajo,int64,100.0,2
+tcco,sdem,tcco,"Clasificación de la población en ocupados que trabajan menos de 35 hrs., más de 35 hrs, y más de 48 hrs.",int64,100.0,4
+cp_anoc,sdem,cp_anoc,Clasificación de la población cuenta propia en actividades no calificadas,int64,100.0,2
+imssissste,sdem,imssissste,Instituciones de atención médica,int64,100.0,6
+ma48me1sm,sdem,ma48me1sm,Población ocupada que trabaja más de 48 horas y gana menos de 1 salario mínimo,int64,100.0,2
+p14apoyos,sdem,p14apoyos,Clasificación de la población por apoyos económicos,int64,100.0,4
+scian,sdem,scian,Clasificación de actividades económicas con base al sistema de clasificación industrial de América del Norte,int64,100.0,22
+t_tra,sdem,t_tra,Total de trabajos,int64,100.0,3
+emp_ppal,sdem,emp_ppal,Clasificación de empleos formales e informales de la primera actividad,int64,100.0,3
+tue_ppal,sdem,tue_ppal,Tipo de unidad económica del trabajo principal,int64,100.0,3
+trans_ppal,sdem,trans_ppal,Trabajadores transfronterizos del trabajo principal,int64,100.0,2
+mh_fil2,sdem,mh_fil2,Filas agregadas de la matriz Hussmanns del trabajo principal,int64,100.0,5
+mh_col,sdem,mh_col,Columnas de la matriz Hussmanns del trabajo principal,int64,100.0,10
+sec_ins,sdem,sec_ins,Sectores institucionales del trabajo principal,int64,100.0,12
+tipo,sdem,tipo,Tipo de entrevista,string,100.0,2
+mes_cal,sdem,mes_cal,Mes calendario,string,100.0,4
+cvegeo,sdem,cvegeo,Clave geoestadistíca,object,100.0,1038
+c1_r_def,coe1,r_def,Resultado definitivo de la entrevista,float64,84.5,1
+c1_upm,coe1,upm,Unidad primaria de muestreo,string,84.5,21171
+c1_d_sem,coe1,d_sem,Distribución semanal,string,84.5,65
+c1_n_pro_viv,coe1,n_pro_viv,Número progresivo de la vivienda,string,84.5,471
+c1_n_ent,coe1,n_ent,Número de entrevista o visita,string,84.5,5
+c1_per,coe1,per,Periodo,string,84.5,1
+c1_eda,coe1,eda,Edad,float64,84.5,87
+c1_n_inf,coe1,n_inf,Renglón del Informante,float64,84.5,19
+c1_p1,coe1,p1,Pregunta 1 Ahora le voy a preguntar por la situación laboral de …¿La semana pasada trabajó por lo menos una hora?,float64,84.5,2
+c1_p1a1,coe1,p1a1,Pregunta 1a Opción 1: realizar una actividad que le proporcionó ingresos?,object,84.5,2
+c1_p1a2,coe1,p1a2,Pregunta 1a Opción 2: ayudar en las tierras o en el negocio de un familiar o de otra persona?,object,84.5,2
+c1_p1a3,coe1,p1a3,Pregunta 1a Opción 3: no trabajó la semana pasada,object,84.5,2
+c1_p1b,coe1,p1b,"Pregunta 1b Aunque ya me dijo que ... no trabajó la semana pasada, ¿tiene algún empleo, negocio o realiza alguna actividad por su cuenta?",object,84.5,3
+c1_p1c,coe1,p1c,Pregunta 1c ¿Cuál es la razón principal por la que ... no trabajó la semana pasada?,object,84.5,14
+c1_p1d,coe1,p1d,Pregunta 1d Durante este periodo de ausencia ¿... recibe sueldo o ganancias?,object,84.5,4
+c1_p1e,coe1,p1e,Pregunta 1e ¿En cuánto tiempo regresará ... a este mismo trabajo?,object,84.5,7
+c1_p2_1,coe1,p2_1,Pregunta 2 Opción 1: buscar trabajo en otro país o hacer preparativos para cruzar la frontera?,object,84.5,2
+c1_p2_2,coe1,p2_2,Pregunta 2 Opción 2: buscar trabajo aquí en el país,object,84.5,2
+c1_p2_3,coe1,p2_3,Pregunta 2 Opción 3: poner un negocio o realizar una actividad por su cuenta sin poder todavía comenzar?,object,84.5,2
+c1_p2_4,coe1,p2_4,Pregunta 2 Opción 4: Entonces ¿no ha tratado de buscar trabajo?,object,84.5,2
+c1_p2_9,coe1,p2_9,Pregunta 2 Opción 9: No sabe,object,84.5,2
+c1_p2a_dia,coe1,p2a_dia,Pregunta 2a Día en que comenzó,object,84.5,33
+c1_p2a_sem,coe1,p2a_sem,Pregunta 2a Semana en que comenzó,object,84.5,6
+c1_p2a_mes,coe1,p2a_mes,Pregunta 2a Mes en que comenzó,object,84.5,14
+c1_p2a_anio,coe1,p2a_anio,Pregunta 2a Año en que comenzó,object,84.5,12
+c1_p2b_dia,coe1,p2b_dia,Pregunta 2b Día de la última vez,object,84.5,33
+c1_p2b_sem,coe1,p2b_sem,Pregunta 2b Semana de la última vez,object,84.5,6
+c1_p2b_mes,coe1,p2b_mes,Pregunta 2b Mes de la última vez,object,84.5,14
+c1_p2b_anio,coe1,p2b_anio,Pregunta 2b Año de la última vez,object,84.5,8
+c1_p2b,coe1,p2b,Pregunta 2b ¿En qué fecha fue la última vez que ... buscó trabajo (o terminó con los preparativos para poner el negocio)?,object,84.5,6
+c1_p2c,coe1,p2c,Pregunta 2c ¿... estaba dispuesto a trabajar la semana pasada?,object,84.5,4
+c1_p2d1,coe1,p2d1,Pregunta 2d Opción 1: acudió directamente al lugar de trabajo,object,84.5,2
+c1_p2d2,coe1,p2d2,Pregunta 2d Opción 2: hizo trámites en una agencia o bolsa de trabajo privada,object,84.5,2
+c1_p2d3,coe1,p2d3,Pregunta 2d Opción 3: hizo trámites en un servicio público de colocación,object,84.5,2
+c1_p2d4,coe1,p2d4,Pregunta 2d Opción 4: hizo trámites en algún programa de empleo temporal del gobierno,object,84.5,2
+c1_p2d5,coe1,p2d5,Pregunta 2d Opción 5: hizo trámites o realizó alguna actividad para iniciar un negocio por su cuenta,object,84.5,2
+c1_p2d6,coe1,p2d6,Pregunta 2d Opción 6: puso o contestó un anuncio en internet,object,84.5,2
+c1_p2d7,coe1,p2d7,"Pregunta 2d Opción 7: puso o contestó un anuncio en algún lugar público o en medios de comunicación (periódico, radio)",object,84.5,2
+c1_p2d8,coe1,p2d8,Pregunta 2d Opción 8: acudió a un sindicato o gremio,object,84.5,2
+c1_p2d9,coe1,p2d9,Pregunta 2d Opción 9: pidió a conocidos o familiares que lo recomendaran o le avisaran de algún trabajo,object,84.5,2
+c1_p2d10,coe1,p2d10,Pregunta 2d Opción 10: solo consultó el anuncio clasificado,object,84.5,2
+c1_p2d11,coe1,p2d11,Pregunta 2d Opción 11: otra actividad,object,84.5,2
+c1_p2d99,coe1,p2d99,Pregunta 2d Opción 99: no sabe,object,84.5,2
+c1_p2e,coe1,p2e,Pregunta 2e ¿... es,object,84.5,8
+c1_p2f,coe1,p2f,"Pregunta 2f Actualmente, ¿... tiene necesidad de trabajar?",object,84.5,5
+c1_p2g1,coe1,p2g1,"Pregunta 2g ¿Hay alguna otra razón, además de ser (menciona lo que contestaron en 2e), por la que ... no esté buscando trabajo?",object,84.5,4
+c1_p2g2,coe1,p2g2,Pregunta 2g Opciones de respuesta cuando P2G1=1,object,84.5,13
+c1_p2h1,coe1,p2h1,Pregunta 2h Opción 1: un pago o salario?,object,84.5,2
+c1_p2h2,coe1,p2h2,Pregunta 2h Opción 2: Por su cuenta?,object,84.5,2
+c1_p2h3,coe1,p2h3,Pregunta 2h Opción 3: ayudando en el negocio o actividad económica de alguna persona?,object,84.5,2
+c1_p2h4,coe1,p2h4,Pregunta 2h Opción 4: nunca ha trabajado,object,84.5,2
+c1_p2h9,coe1,p2h9,Pregunta 2h Opción 9: no sabe,object,84.5,2
+c1_p3,coe1,p3,"Pregunta 3 Si…tiene más de un trabajo, hablemos del principal. ¿Cuáles son las tareas o funciones principales que…desempeña en su trabajo?",object,84.5,485
+c1_p3a,coe1,p3a,Pregunta 3a ¿En su trabajo ... tiene un jefe(a) o superior?,object,84.5,3
+c1_p3b,coe1,p3b,"Pregunta 3b Entonces, ¿... se dedica a un negocio o actividad por su cuenta?",object,84.5,3
+c1_p3c1,coe1,p3c1,"Pregunta 3c Opción 1: a una sola empresa, negocio o intermediario?",object,84.5,2
+c1_p3c2,coe1,p3c2,"Pregunta 3c Opción 2: a varios negocios, empresas o intermediarios?",object,84.5,2
+c1_p3c3,coe1,p3c3,Pregunta 3c Opción 3: directamente al público?,object,84.5,2
+c1_p3c4,coe1,p3c4,Pregunta 3c Opción 4: es autoconsumo agropecuario,object,84.5,2
+c1_p3c9,coe1,p3c9,Pregunta 3c Opción 9: no sabe,object,84.5,2
+c1_p3d,coe1,p3d,Pregunta 3d ¿... tiene empleados o le ayudan personas en su negocio o actividad?,object,84.5,4
+c1_p3e,coe1,p3e,Pregunta 3e ¿... tiene,object,84.5,3
+c1_p3f1,coe1,p3f1,Pregunta 3f ¿Cuántos puestos o establecimientos (o en su caso vehículos) forman este negocio o empresa?,object,84.5,5
+c1_p3f2,coe1,p3f2,"Pregunta 3f ¿Más de uno?, ¿Cuántos?",object,84.5,17
+c1_p3g1_1,coe1,p3g1_1,Pregunta 3g Opción 1: trabajadores que reciben un pago?,object,84.5,2
+c1_p3g1_2,coe1,p3g1_2,Pregunta 3g Número de trabajadores con pago,object,84.5,47
+c1_p3g2_1,coe1,p3g2_1,Pregunta 3g Opción 2: socios?,object,84.5,2
+c1_p3g2_2,coe1,p3g2_2,Pregunta 3g Número de socios,object,84.5,25
+c1_p3g3_1,coe1,p3g3_1,Pregunta 3g Opción 3: trabajadores sin pago?,object,84.5,2
+c1_p3g3_2,coe1,p3g3_2,Pregunta 3g Número de trabajadores sin pago,object,84.5,9
+c1_p3g4_1,coe1,p3g4_1,Pregunta 3g Opción 4: no sabe qué tipo de trabajadores son,object,84.5,2
+c1_p3g4_2,coe1,p3g4_2,Pregunta 3g Número de trabajadores sin tipo,object,84.5,4
+c1_p3g9,coe1,p3g9,Pregunta 3g Opción 9: no sabe,object,84.5,2
+c1_p3g_tot,coe1,p3g_tot,Pregunta 3g total Sumatoria de número de trabajadores,object,84.5,66
+c1_p3h,coe1,p3h,Pregunta 3h ¿En este trabajo ...,object,84.5,4
+c1_p3i,coe1,p3i,Pregunta 3i ¿En este empleo ... Pertenece a algún sindicato?,object,84.5,4
+c1_p3j,coe1,p3j,Pregunta 3j ¿En este empleo ... cuenta con un contrato por escrito?,object,84.5,4
+c1_p3k1,coe1,p3k1,Pregunta 3k ¿El contrato de … es,object,84.5,4
+c1_p3k2,coe1,p3k2,Pregunta 3k Desglose de contrato temporal,object,84.5,5
+c1_p3l1,coe1,p3l1,Pregunta 3l Opción 1: aguinaldo?,object,84.5,2
+c1_p3l2,coe1,p3l2,Pregunta 3l Opción 2: vacaciones con goce de sueldo?,object,84.5,2
+c1_p3l3,coe1,p3l3,Pregunta 3l Opción 3: reparto de utilidades?,object,84.5,2
+c1_p3l4,coe1,p3l4,Pregunta 3l Opción 4: ninguna de las anteriores,object,84.5,2
+c1_p3l5,coe1,p3l5,Pregunta 3l Opción 5: no le dan nada,object,84.5,2
+c1_p3l9,coe1,p3l9,Pregunta 3l Opción 9: no sabe,object,84.5,2
+c1_p3m1,coe1,p3m1,"Pregunta 3m Opción 1: crédito para vivienda (Infonavit, Fovissste)?",object,84.5,2
+c1_p3m2,coe1,p3m2,Pregunta 3m Opción 2: guardería?,object,84.5,2
+c1_p3m3,coe1,p3m3,Pregunta 3m Opción 3: tiempo para cuidados maternos o paternos?,object,84.5,2
+c1_p3m4,coe1,p3m4,Pregunta 3m Opción 4: fondo de retiro (SAR o Afore)?,object,84.5,2
+c1_p3m5,coe1,p3m5,Pregunta 3m Opción 5: seguro de vida?,object,84.5,2
+c1_p3m6,coe1,p3m6,Pregunta 3m Opción 6 seguro privado para gastos médicos?,object,84.5,2
+c1_p3m7,coe1,p3m7,Pregunta 3m Opción 7: préstamos personales y/o caja de ahorro?,object,84.5,2
+c1_p3m8,coe1,p3m8,Pregunta 3m Opción 8: ninguna de las anteriores,object,84.5,2
+c1_p3m9,coe1,p3m9,Pregunta 3m Opción 9: no sabe,object,84.5,2
+c1_p3n,coe1,p3n,Pregunta 3n ¿Cómo se enteró ... de este empleo?,object,84.5,12
+c1_p3o,coe1,p3o,"Pregunta 3o Para conseguir o conservar este trabajo, ¿ ... se vio obligado a cambiar de ciudad o localidad?",object,84.5,3
+c1_p3p1,coe1,p3p1,"Pregunta 3p Antes de este cambio, ¿en qué estado de la República o país vivía ...?",object,84.5,5
+c1_p3p2,coe1,p3p2,Pregunta 3p Clave asignada a la descripción del lugar de residencia,object,84.5,55
+c1_p3q,coe1,p3q,"Pregunta 3q ¿Aproximadamente cuántas personas, incluyendo al dueño, laboran donde trabaja ...?",object,84.5,13
+c1_p3r_anio,coe1,p3r_anio,Pregunta 3r ¿En qué año …,object,84.5,80
+c1_p3r_mes,coe1,p3r_mes,Pregunta 3r,object,84.5,14
+c1_p3r,coe1,p3r,Pregunta 3r,object,84.5,5
+c1_p3s,coe1,p3s,Pregunta 3s ¿Desde entonces …,object,84.5,4
+c1_p3t_anio,coe1,p3t_anio,Pregunta 3t ¿En qué año …,object,84.5,38
+c1_p3t_mes,coe1,p3t_mes,Pregunta 3t,object,84.5,14
+c1_p4,coe1,p4,"Pregunta 4 ¿Cuál es el nombre de la empresa, negocio o institución para la que ... trabaja o ayuda?",object,84.5,6
+c1_p4_1,coe1,p4_1,Pregunta 4 Campo exclusivo del sistema,object,84.5,1
+c1_p4_2,coe1,p4_2,Pregunta 4 Campo exclusivo del sistema,object,84.5,1
+c1_p4_3,coe1,p4_3,Pregunta 4 Campo exclusivo del sistema,object,84.5,2
+c1_p4a,coe1,p4a,"Pregunta 4a ¿A qué se dedica esta empresa, negocio o institución?",object,84.5,177
+c1_p4a_1,coe1,p4a_1,Pregunta 4a Campo exclusivo del sistema,object,84.5,1
+c1_p4b,coe1,p4b,Pregunta 4b SÓLO PARA EL ENTREVISTADOR,object,84.5,6
+c1_p4c,coe1,p4c,"Pregunta 4c Entonces, ¿estamos hablando de que este negocio es …",object,84.5,4
+c1_p4d1,coe1,p4d1,"Pregunta 4d Entonces, ¿ … trabaja para",object,84.5,4
+c1_p4d2,coe1,p4d2,Pregunta 4d Opciones de respuesta cuando,object,84.5,10
+c1_p4d3,coe1,p4d3,Pregunta 4d Campo exclusivo del sistema,object,84.5,2
+c1_p4e,coe1,p4e,Pregunta 4e ¿El negocio o actividad,object,84.5,6
+c1_p4f,coe1,p4f,"Pregunta 4f Entonces, ¿en dónde se realizan las actividades de este negocio?",object,84.5,13
+c1_p4g,coe1,p4g,Pregunta 4g En este negocio o actividad,object,84.5,6
+c1_p4h,coe1,p4h,Pregunta 4h ¿Normalmente en qué lugar trabaja ... ?,object,84.5,7
+c1_p4i,coe1,p4i,Pregunta 4i La empresa a la que pertenece ... ¿tiene oficinas o establecimientos,object,84.5,6
+c1_p4i_1,coe1,p4i_1,Pregunta 4i Campo exclusivo del sistema,object,84.5,2
+c1_p5,coe1,p5,Pregunta 5 ¿La jornada de trabajo de ... es,object,84.5,6
+c1_p5a,coe1,p5a,"Pregunta 5a La semana pasada, ¿... tuvo poco trabajo que hacer?",object,84.5,5
+c1_p5b,coe1,p5b,Pregunta 5b ¿Le preocupa a ... esta situación?,object,84.5,8
+c1_p5c_hlu,coe1,p5c_hlu,Pregunta 5c Horas lunes,object,84.5,27
+c1_p5c_mlu,coe1,p5c_mlu,Pregunta 5c Minutos lunes,object,84.5,27
+c1_p5c_hma,coe1,p5c_hma,Pregunta 5c Horas martes,object,84.5,27
+c1_p5c_mma,coe1,p5c_mma,Pregunta 5c Minutos martes,object,84.5,29
+c1_p5c_hmi,coe1,p5c_hmi,Pregunta 5c Horas miércoles,object,84.5,27
+c1_p5c_mmi,coe1,p5c_mmi,Pregunta 5c Minutos miércoles,object,84.5,31
+c1_p5c_hju,coe1,p5c_hju,Pregunta 5c Horas jueves,object,84.5,27
+c1_p5c_mju,coe1,p5c_mju,Pregunta 5c Minutos jueves,object,84.5,29
+c1_p5c_hvi,coe1,p5c_hvi,Pregunta 5c Horas viernes,object,84.5,27
+c1_p5c_mvi,coe1,p5c_mvi,Pregunta 5c Minutos viernes,object,84.5,28
+c1_p5c_hsa,coe1,p5c_hsa,Pregunta 5c Horas sábado,object,84.5,28
+c1_p5c_msa,coe1,p5c_msa,Pregunta 5c Minutos sábado,object,84.5,22
+c1_p5c_hdo,coe1,p5c_hdo,Pregunta 5c Horas domingo,object,84.5,28
+c1_p5c_mdo,coe1,p5c_mdo,Pregunta 5c Minutos domingo,object,84.5,18
+c1_p5c_thrs,coe1,p5c_thrs,Pregunta 5c Total de horas,object,84.5,123
+c1_p5c_tdia,coe1,p5c_tdia,Pregunta 5c Total de días (campo adicional contenido en la base de datos),object,84.5,9
+c1_p5d,coe1,p5d,Pregunta 5d ¿Ese es el número de horas que habitualmente trabaja ...?,object,84.5,4
+c1_p5e1,coe1,p5e1,Pregunta 5e Horas y minutos o no tiene horario regular de trabajo,object,84.5,3
+c1_p5e_hlu,coe1,p5e_hlu,Pregunta 5e Horas lunes,object,84.5,23
+c1_p5e_mlu,coe1,p5e_mlu,Pregunta 5e Minutos lunes,object,84.5,16
+c1_p5e_hma,coe1,p5e_hma,Pregunta 5e Horas martes,object,84.5,24
+c1_p5e_mma,coe1,p5e_mma,Pregunta 5e Minutos martes,object,84.5,18
+c1_p5e_hmi,coe1,p5e_hmi,Pregunta 5e Horas miércoles,object,84.5,23
+c1_p5e_mmi,coe1,p5e_mmi,Pregunta 5e Minutos miércoles,object,84.5,17
+c1_p5e_hju,coe1,p5e_hju,Pregunta 5e Horas jueves,object,84.5,24
+c1_p5e_mju,coe1,p5e_mju,Pregunta 5e Minutos jueves,object,84.5,17
+c1_p5e_hvi,coe1,p5e_hvi,Pregunta 5e Horas viernes,object,84.5,24
+c1_p5e_mvi,coe1,p5e_mvi,Pregunta 5e Minutos viernes,object,84.5,16
+c1_p5e_hsa,coe1,p5e_hsa,Pregunta 5e Horas sábado,object,84.5,22
+c1_p5e_msa,coe1,p5e_msa,Pregunta 5e Minutos sábado,object,84.5,6
+c1_p5e_hdo,coe1,p5e_hdo,Pregunta 5e Horas domingo,object,84.5,23
+c1_p5e_mdo,coe1,p5e_mdo,Pregunta 5e Minutos domingo,object,84.5,10
+c1_p5e_thrs,coe1,p5e_thrs,Pregunta 5e Total de horas,object,84.5,102
+c1_p5e_tdia,coe1,p5e_tdia,Pregunta 5e Total de días (campo adicional contenido en la base de datos),object,84.5,9
+c1_p5f,coe1,p5f,Pregunta 5f ¿Cuál es el motivo principal por el que la semana pasada ... no trabajó las horas habituales?,object,84.5,14
+c1_p5g1,coe1,p5g1,Pregunta 5g Opción 1: enero,object,84.5,2
+c1_p5g2,coe1,p5g2,Pregunta 5g Opción 2: febrero,object,84.5,2
+c1_p5g3,coe1,p5g3,Pregunta 5g Opción 3: marzo,object,84.5,2
+c1_p5g4,coe1,p5g4,Pregunta 5g Opción 4: abril,object,84.5,2
+c1_p5g5,coe1,p5g5,Pregunta 5g Opción 5: mayo,object,84.5,2
+c1_p5g6,coe1,p5g6,Pregunta 5g Opción 6: junio,object,84.5,2
+c1_p5g7,coe1,p5g7,Pregunta 5g Opción 7: julio,object,84.5,2
+c1_p5g8,coe1,p5g8,Pregunta 5g Opción 8: agosto,object,84.5,2
+c1_p5g9,coe1,p5g9,Pregunta 5g Opción 9: septiembre,object,84.5,2
+c1_p5g10,coe1,p5g10,Pregunta 5g Opción 10: octubre,object,84.5,2
+c1_p5g11,coe1,p5g11,Pregunta 5g Opción 11: noviembre,object,84.5,2
+c1_p5g12,coe1,p5g12,Pregunta 5g Opción 12: diciembre,object,84.5,2
+c1_p5g13,coe1,p5g13,Pregunta 5g Opción 13: Varían los meses en que trabaja,object,84.5,2
+c1_p5g14,coe1,p5g14,Pregunta 5g Opción 14: Trabaja todos los meses del año,object,84.5,2
+c1_p5g15,coe1,p5g15,Pregunta 5g Opción 15: Tiene menos de un año en este trabajo,object,84.5,2
+c1_p5g99,coe1,p5g99,Pregunta 5g Opción 99: no sabe,object,84.5,2
+c1_p5h,coe1,p5h,Pregunta 5h ¿Cuál es el motivo principal por el que ... no trabaja todos los meses del año?,object,84.5,7
+c1_ur,coe1,ur,Urbano/Rural,string,84.5,2
+c1_fac_tri,coe1,fac_tri,Ponderador trimestral,float64,84.5,1755
+c1_fac_men,coe1,fac_men,Ponderador mensual,float64,84.5,3553
+c1_cve_mun,coe1,cve_mun,Clave del municipio,object,84.5,221
+c1_cvegeo,coe1,cvegeo,Clave geoestadística,float64,84.5,1038
+c2_upm,coe2,upm,Unidad primaria de muestreo,string,84.5,21171
+c2_d_sem,coe2,d_sem,Distribución semanal,string,84.5,65
+c2_n_pro_viv,coe2,n_pro_viv,Número progresivo de la vivienda,string,84.5,471
+c2_n_ent,coe2,n_ent,Número de entrevista o visita,string,84.5,5
+c2_per,coe2,per,Periodo,string,84.5,1
+c2_eda,coe2,eda,Edad,float64,84.5,87
+c2_n_inf,coe2,n_inf,Renglón del Informante,float64,84.5,19
+c2_p6_1,coe2,p6_1,Pregunta 6 Opción 1: por comisión?,object,84.5,2
+c2_p6_2,coe2,p6_2,"Pregunta 6 Opción 2: a destajo (por pieza), servicio u obra realizada?",object,84.5,2
+c2_p6_3,coe2,p6_3,Pregunta 6 Opción 3: por honorarios?,object,84.5,2
+c2_p6_4,coe2,p6_4,Pregunta 6 Opción 4: con propinas?,object,84.5,2
+c2_p6_5,coe2,p6_5,Pregunta 6 Opción 5: con bonos de compensación o de productividad?,object,84.5,2
+c2_p6_6,coe2,p6_6,Pregunta 6 Opción 6: con vales o productos comercializables?,object,84.5,2
+c2_p6_7,coe2,p6_7,"Pregunta 6 Opción 7: Solo recibe sueldo, salario o jornal",object,84.5,2
+c2_p6_8,coe2,p6_8,Pregunta 6 Opción 8: Solo lo que le deja su negocio,object,84.5,2
+c2_p6_9,coe2,p6_9,Pregunta 6 Opción 9: no le pagan ni recibe ingresos (incluye autoconsumo agropecuario),object,84.5,2
+c2_p6_10,coe2,p6_10,Pregunta 6 Opción 10: ninguna de las anteriores,object,84.5,2
+c2_p6_99,coe2,p6_99,Pregunta 6 Opción 99: no sabe,object,84.5,2
+c2_p6a1,coe2,p6a1,"Pregunta 6a Opción 1: a sueldo, salario o jornal?",object,84.5,2
+c2_p6a2,coe2,p6a2,Pregunta 6a Opción 2: por ganancias o de lo que deja su negocio?,object,84.5,2
+c2_p6a3,coe2,p6a3,Pregunta 6a Opción 3: no le pagan ni recibe ingresos (incluye autoconsumo agropecuario),object,84.5,2
+c2_p6a4,coe2,p6a4,Pregunta 6a Opción 4: ninguna de las anteriores,object,84.5,2
+c2_p6a9,coe2,p6a9,Pregunta 6a Opción 9: no sabe,object,84.5,2
+c2_p6b1,coe2,p6b1,Pregunta 6b ¿Cada cuándo obtiene ... sus ingresos o le pagan?,object,84.5,9
+c2_p6b2,coe2,p6b2,Pregunta 6b Cantidad en  pesos,float64,31.0,1489
+c2_p6c,coe2,p6c,"Pregunta 6c Actualmente el salario mínimo mensual es de $ , ¿la cantidad que ... Obtiene al mes por su trabajo es",object,84.5,10
+c2_p6d,coe2,p6d,Pregunta 6d Por parte de este trabajo ¿... tiene acceso a atención médica en,object,84.5,8
+c2_p6e,coe2,p6e,"Pregunta 6e ¿En qué municipio (alcaldía) está el negocio, empresa o lugar donde trabajó ... la semana pasada?",object,84.5,4
+c2_p6e_c,coe2,p6e_c,"Pregunta 6e Clave del municipio (alcaldía) donde está el negocio, empresa o lugar donde trabajó ... la semana pasada",object,84.5,302
+c2_p6f,coe2,p6f,Pregunta 6f ¿En qué estado o país?,object,84.5,5
+c2_p6f_c,coe2,p6f_c,Pregunta 6f Clave del estado o país,object,84.5,45
+c2_p6g,coe2,p6g,"Pregunta 6g ¿El lugar donde trabajó ... la semana pasada, es el mismo donde está el negocio, la empresa o el lugar para el que trabaja?",object,84.5,4
+c2_p6h,coe2,p6h,"Pregunta 6h ¿En qué municipio (alcaldía) está el negocio, empresa o el lugar para la que trabaja ...?",object,84.5,4
+c2_p6h_c,coe2,p6h_c,"Pregunta 6h Clave del municipio (alcaldía) donde está el negocio, empresa o el lugar para la que trabaja ...",object,84.5,126
+c2_p6i,coe2,p6i,Pregunta 6i ¿En qué estado o país?,object,84.5,5
+c2_p6i_c,coe2,p6i_c,Pregunta 6i Clave del estado o país,object,84.5,48
+c2_p7,coe2,p7,"Pregunta 7 Además del trabajo principal del que ya hablamos, ¿... tiene o realiza otra actividad como",object,84.5,9
+c2_p7a,coe2,p7a,Pregunta 7a ¿Cuáles son las tareas o funciones principales que … desempeña en su segundo trabajo?,object,84.5,358
+c2_p7b,coe2,p7b,"Pregunta 7b ¿Cuál es el nombre de la empresa, negocio o institución para la que ... realiza este otro trabajo?",object,84.5,6
+c2_p7c,coe2,p7c,"Pregunta 7c ¿A qué se dedica esta empresa, negocio o institución donde trabaja o ayuda ... en su segundo trabajo?",object,84.5,133
+c2_p7d,coe2,p7d,"Pregunta 7d Por parte de este segundo trabajo, ¿... tiene acceso a atención médica en",object,84.5,6
+c2_p7e,coe2,p7e,Pregunta 7e ¿Aproximadamente cuántas personas laboran donde trabaja ... en su segundo empleo?,object,84.5,13
+c2_p7f,coe2,p7f,Pregunta 7f ¿Cuántos días y cuántas horas le dedicó ... a su segundo trabajo la semana pasada?,object,84.5,3
+c2_p7f_dias,coe2,p7f_dias,Pregunta 7f,object,84.5,9
+c2_p7f_horas,coe2,p7f_horas,Pregunta 7f,object,84.5,65
+c2_p7g1,coe2,p7g1,Pregunta 7g Opción 1: en efectivo,object,84.5,2
+c2_p7g2,coe2,p7g2,Pregunta 7g Opción 2: en especie,object,84.5,2
+c2_p7g3,coe2,p7g3,Pregunta 7g Opción 3: no le pagan ni recibe ingresos (incluye autoconsumo agropecuario),object,84.5,2
+c2_p7g9,coe2,p7g9,Pregunta 7g Opción 9: no sabe,object,84.5,2
+c2_p7gcan,coe2,p7gcan,Pregunta 7g Cantidad en  pesos,float64,1.8,228
+c2_p8_1,coe2,p8_1,Pregunta 8 Opción 1: buscar otro trabajo en otro país o hacer preparativos para cruzar la frontera?,object,84.5,2
+c2_p8_2,coe2,p8_2,Pregunta 8 Opción 2: buscar otro trabajo aquí en el país?,object,84.5,2
+c2_p8_3,coe2,p8_3,"Pregunta 8 Opción 3: poner un negocio o realizar una actividad por su cuenta, sin poder todavía comenzar?",object,84.5,2
+c2_p8_4,coe2,p8_4,"Pregunta 8 Opción 4: entonces, ¿no ha tratado de buscar otro trabajo?",object,84.5,2
+c2_p8_9,coe2,p8_9,Pregunta 8 Opción 9: no sabe,object,84.5,2
+c2_p8a,coe2,p8a,Pregunta 8a Lo que ... intenta ¿es,object,84.5,6
+c2_p8b,coe2,p8b,Pregunta 8b ¿Cuál es el motivo principal por el que ... está buscando otro trabajo?,object,84.5,10
+c2_p9,coe2,p9,Pregunta 9 Alguna vez ... se quedó sin trabajo o negocio y tuvo que buscar otro?,object,84.5,4
+c2_p9a,coe2,p9a,"Pregunta 9a La última vez que ... se quedó sin trabajo, ¿cuál era la situación?",object,84.5,10
+c2_p9b,coe2,p9b,"Pregunta 9b En esa ocasión,",object,84.5,9
+c2_p9c,coe2,p9c,Pregunta 9c ¿Cuál fue el motivo principal?,object,84.5,12
+c2_p9d,coe2,p9d,Pregunta 9d ¿Cuál fue el motivo principal para separarse de ese trabajo?,object,84.5,14
+c2_p9e,coe2,p9e,Pregunta 9e ¿Cuál fue el motivo principal por el que ... se vio obligado a dejar ese negocio o actividad por su cuenta?,object,84.5,16
+c2_p9f_anio,coe2,p9f_anio,Pregunta 9f ¿En qué año ... terminó (o suspendió) ese trabajo u oficio?,object,84.5,83
+c2_p9f_mes,coe2,p9f_mes,Pregunta 9f,object,84.5,14
+c2_p9f,coe2,p9f,Pregunta 9f,object,84.5,5
+c2_p9g,coe2,p9g,Pregunta 9g ¿Cuáles eran las tareas o funciones principales que … desempeñaba en ese trabajo?,object,84.5,449
+c2_p9h,coe2,p9h,"Pregunta 9h ¿Cuál es el nombre de la empresa, negocio o institución para la que ... realizaba ese trabajo?",object,84.5,6
+c2_p9h_1,coe2,p9h_1,Pregunta 9h,object,84.5,2
+c2_p9i,coe2,p9i,"Pregunta 9i ¿A que se dedica o dedicaba la empresa, negocio o institución donde trabajaba?",object,84.5,165
+c2_p9j,coe2,p9j,Pregunta 9j,object,84.5,4
+c2_p9k,coe2,p9k,"Pregunta 9k Por parte de ese trabajo, ¿... tenía acceso a atención médica en",object,84.5,8
+c2_p9l1,coe2,p9l1,Pregunta 9l Opción 1: aguinaldo?,object,84.5,2
+c2_p9l2,coe2,p9l2,Pregunta 9l Opción 2: vacaciones con goce de sueldo?,object,84.5,2
+c2_p9l3,coe2,p9l3,Pregunta 9l Opción 3: reparto de utilidades?,object,84.5,2
+c2_p9l4,coe2,p9l4,Pregunta 9l Opción 4: ninguna de las anteriores,object,84.5,2
+c2_p9l5,coe2,p9l5,Pregunta 9l Opción 5: no le daban nada,object,84.5,2
+c2_p9l9,coe2,p9l9,Pregunta 9l Opción 9: no sabe,object,84.5,2
+c2_p9m1,coe2,p9m1,Pregunta 9m Opción 1: en efectivo,object,84.5,2
+c2_p9m2,coe2,p9m2,Pregunta 9m Opción 2: en especie,object,84.5,2
+c2_p9m3,coe2,p9m3,Pregunta 9m Opción 3: no recibía ingresos,object,84.5,2
+c2_p9m9,coe2,p9m9,Pregunta 9m Opción 9: no sabe,object,84.5,2
+c2_p9mcan,coe2,p9mcan,Pregunta 9m,float64,5.2,421
+c2_p9n1,coe2,p9n1,Pregunta 9n Opción 1: liquidación o indemnización de un empleo?,object,84.5,2
+c2_p9n2,coe2,p9n2,"Pregunta 9n Opción 2: la venta, traspaso o liquidación de un negocio?",object,84.5,2
+c2_p9n3,coe2,p9n3,Pregunta 9n Opción 3: pensión o jubilación?,object,84.5,2
+c2_p9n4,coe2,p9n4,Pregunta 9n Opción 4: seguro de desempleo?,object,84.5,2
+c2_p9n5,coe2,p9n5,Pregunta 9n Opción 5: seguro de separación individual?,object,84.5,2
+c2_p9n6,coe2,p9n6,Pregunta 9n Opción 6: no cuenta con ningún ingreso derivado de un trabajo anterior,object,84.5,2
+c2_p9n9,coe2,p9n9,Pregunta 9n Opción 9: no sabe,object,84.5,2
+c2_p10_1,coe2,p10_1,Pregunta 10 Opción 1: beca de capacitación o ayuda económica para encontrar trabajo?,object,84.5,2
+c2_p10_2,coe2,p10_2,"Pregunta 10 Opción 2: apoyo para realizar una actividad por su cuenta (Procampo, microcréditos)?",object,84.5,2
+c2_p10_3,coe2,p10_3,"Pregunta 10 Opción 3: ayuda de otro programa de gobierno (beca de estudio, despensa)?",object,84.5,2
+c2_p10_4,coe2,p10_4,Pregunta 10 Opción 4: no ha recibido nada del gobierno,object,84.5,2
+c2_p10_9,coe2,p10_9,Pregunta 10 Opción 9: no sabe,object,84.5,2
+c2_p10a1,coe2,p10a1,Pregunta 10a Opción 1: en el extranjero?,object,84.5,2
+c2_p10a2,coe2,p10a2,Pregunta 10a Opción 2: en otro estado del país?,object,84.5,2
+c2_p10a3,coe2,p10a3,Pregunta 10a Opción 3: en este mismo estado?,object,84.5,2
+c2_p10a4,coe2,p10a4,Pregunta 10a Opción 4: no ha recibido nada,object,84.5,2
+c2_p10a9,coe2,p10a9,Pregunta 10a Opción 9: no sabe,object,84.5,2
+c2_p10b,coe2,p10b,Pregunta 10b ¿... cuenta con el Seguro Popular de Salud?,float64,84.5,3
+c2_p11_1,coe2,p11_1,Pregunta 11 Opción 1: estudiar o tomar cursos de capacitación?,object,84.5,2
+c2_p11_h1,coe2,p11_h1,Pregunta 11 Horas,object,84.5,87
+c2_p11_m1,coe2,p11_m1,Pregunta 11 Minutos,object,84.5,16
+c2_p11_2,coe2,p11_2,"Pregunta 11 Opción 2: cuidar o atender sin pago, de manera exclusiva a niños, ancianos, enfermos o discapacitados?",object,84.5,2
+c2_p11_h2,coe2,p11_h2,Pregunta 11 Horas,object,84.5,89
+c2_p11_m2,coe2,p11_m2,Pregunta 11 Minutos,object,84.5,22
+c2_p11_3,coe2,p11_3,"Pregunta 11 Opción 3: realizar compras, llevar cuentas o realizar trámites para el hogar o encargarse de la seguridad?",object,84.5,2
+c2_p11_h3,coe2,p11_h3,Pregunta 11 Horas,object,84.5,54
+c2_p11_m3,coe2,p11_m3,Pregunta 11 Minutos,object,84.5,33
+c2_p11_4,coe2,p11_4,"Pregunta 11 Opción 4: llevar a algún miembro del hogar a la escuela, cita médica u otra actividad?",object,84.5,2
+c2_p11_h4,coe2,p11_h4,Pregunta 11 Horas,object,84.5,49
+c2_p11_m4,coe2,p11_m4,Pregunta 11 Minutos,object,84.5,26
+c2_p11_5,coe2,p11_5,Pregunta 11 Opción 5: construir o ampliar su vivienda?,object,84.5,2
+c2_p11_h5,coe2,p11_h5,Pregunta 11 Horas,object,84.5,41
+c2_p11_m5,coe2,p11_m5,Pregunta 11 Minutos,object,84.5,9
+c2_p11_6,coe2,p11_6,"Pregunta 11 Opción 6: reparar o dar mantenimiento a su vivienda, muebles, aparatos electrodomésticos o vehículos?",object,84.5,2
+c2_p11_h6,coe2,p11_h6,Pregunta 11 Horas,object,84.5,44
+c2_p11_m6,coe2,p11_m6,Pregunta 11 Minutos,object,84.5,20
+c2_p11_7,coe2,p11_7,Pregunta 11 Opción 7: realizar los quehaceres de su hogar?,object,84.5,2
+c2_p11_h7,coe2,p11_h7,Pregunta 11 Horas,object,84.5,90
+c2_p11_m7,coe2,p11_m7,Pregunta 11 Minutos,object,84.5,28
+c2_p11_8,coe2,p11_8,Pregunta 11 Opción 8: prestar servicios gratuitos a su comunidad?,object,84.5,2
+c2_p11_h8,coe2,p11_h8,Pregunta 11 Horas,object,84.5,51
+c2_p11_m8,coe2,p11_m8,Pregunta 11 Minutos,object,84.5,18
+c2_ur,coe2,ur,Urbano/Rural,string,84.5,2
+c2_fac_tri,coe2,fac_tri,Ponderador trimestral,float64,84.5,1755
+c2_fac_men,coe2,fac_men,Ponderador mensual,float64,84.5,3553
+c2_cve_mun,coe2,cve_mun,Clave del municipio,object,84.5,221
+c2_cvegeo,coe2,cvegeo,Clave geoestadística,float64,84.5,1038
+hog_cve_loc,hog,cve_loc,Número de la localidad,object,100.0,1
+hog_cve_mun,hog,cve_mun,Número de municipio según entidad,object,100.0,221
+hog_est,hog,est,Estrato nacional y estatal,int64,100.0,4
+hog_est_d_tri,hog,est_d_tri,Estrato de diseño trimestral,int64,100.0,723
+hog_est_d_men,hog,est_d_men,Estrato de diseño mensual,object,100.0,724
+hog_cve_ageb,hog,cve_ageb,Número de ageb del marco nacional,int64,100.0,1
+hog_t_loc_tri,hog,t_loc_tri,Tamaño de localidad trimestral,int64,100.0,4
+hog_t_loc_men,hog,t_loc_men,Tamaño de localidad mensual,object,100.0,5
+hog_upm,hog,upm,Unidad primaria de muestreo,string,100.0,21171
+hog_d_sem,hog,d_sem,Distribución semanal,string,100.0,65
+hog_n_pro_viv,hog,n_pro_viv,Número progresivo de la vivienda,string,100.0,471
+hog_n_ent,hog,n_ent,Numero de entrevista o visita,string,100.0,5
+hog_per,hog,per,Periodo,string,100.0,1
+hog_r_pre,hog,r_pre,Resultado preliminar de la entrevista,int64,100.0,15
+hog_p_dia,hog,p_dia,Día del resultado preliminar,int64,100.0,31
+hog_p_mes,hog,p_mes,Mes del resultado preliminar,int64,100.0,4
+hog_p_anio,hog,p_anio,Año del resultado preliminar,int64,100.0,2
+hog_r_def,hog,r_def,Resultado definitivo de la entrevista,int64,100.0,1
+hog_d_dia,hog,d_dia,Día del resultado definitivo,int64,100.0,31
+hog_d_mes,hog,d_mes,Mes del resultado definitivo,int64,100.0,5
+hog_d_anio,hog,d_anio,Año del resultado definitivo,int64,100.0,2
+hog_e_obs,hog,e_obs,Entrevista observada,object,100.0,1
+hog_p4_1,hog,p4_1,Pregunta 4  ¿En este hogar se contrata a trabajadores domésticos ...,object,100.0,4
+hog_p4_2,hog,p4_2,Pregunta 4  ¿Cuántos?,object,100.0,7
+hog_inf,hog,inf,Renglón del informante,int64,100.0,18
+hog_ur,hog,ur,Urbano/Rural,string,100.0,2
+hog_tipolev,hog,tipolev,Tipo de levantamiento de la entrevista,int64,100.0,2
+hog_fac_tri,hog,fac_tri,Ponderador trimestral,int64,100.0,1755
+hog_fac_men,hog,fac_men,Ponderador mensual,int64,100.0,3553
+hog_cvegeo,hog,cvegeo,Clave geoestadistíca,int64,100.0,1038
+viv_cve_loc,viv,cve_loc,Número de la localidad,object,100.0,1
+viv_cve_mun,viv,cve_mun,Número de municipio según entidad,object,100.0,221
+viv_est,viv,est,Estrato nacional y estatal,int64,100.0,4
+viv_est_d_tri,viv,est_d_tri,Estrato de diseño trimestral,int64,100.0,723
+viv_est_d_men,viv,est_d_men,Estrato de diseño mensual,object,100.0,724
+viv_cve_ageb,viv,cve_ageb,Número de ageb del marco nacional,int64,100.0,1
+viv_t_loc_tri,viv,t_loc_tri,Tamaño de localidad trimestral,int64,100.0,4
+viv_t_loc_men,viv,t_loc_men,Tamaño de localidad mensual,object,100.0,5
+viv_upm,viv,upm,Unidad primaria de muestreo,string,100.0,21171
+viv_d_sem,viv,d_sem,Distribución semanal,string,100.0,65
+viv_n_pro_viv,viv,n_pro_viv,Número progresivo de la vivienda,string,100.0,471
+viv_n_ent,viv,n_ent,Numero de entrevista o visita,string,100.0,5
+viv_per,viv,per,Periodo,string,100.0,1
+viv_p1,viv,p1,Pregunta 1  ¿Cuántas personas viven normalmente en esta vivienda contando a los niños chiquitos y a los ancianos?,object,100.0,18
+viv_p2,viv,p2,Pregunta 2  ¿Todas estas personas comparten un mismo gasto para comer?,object,100.0,3
+viv_p3,viv,p3,Pregunta 3  ¿Cuántos hogares o grupos de personas tienen gastos separados para comer contando el de usted?,object,100.0,5
+viv_ur,viv,ur,Urbano/Rural,string,100.0,2
+viv_fac_tri,viv,fac_tri,Ponderador trimestral,int64,100.0,1755
+viv_fac_men,viv,fac_men,Ponderador mensual,int64,100.0,3553
+viv_cvegeo,viv,cvegeo,Clave geoestadistíca,int64,100.0,1038
+ingocup_sm,derivada,ingocup_sm,,float64,100.0,1818
+ent_n_muestra,derivada,ent_n_muestra,,int64,100.0,32
+ent_pob_expandida,derivada,ent_pob_expandida,,float64,100.0,32
+ent_pob_ocupada,derivada,ent_pob_ocupada,,float64,100.0,32
+ent_tasa_desocup,derivada,ent_tasa_desocup,,float64,100.0,32
+ent_tasa_particip,derivada,ent_tasa_particip,,float64,100.0,32
+ent_ing_medio_ocup,derivada,ent_ing_medio_ocup,,float64,100.0,32
+ent_ing_mediana_ocup,derivada,ent_ing_mediana_ocup,,float64,100.0,15
+ent_ing_p25_ocup,derivada,ent_ing_p25_ocup,,float64,100.0,15
+ent_ing_p75_ocup,derivada,ent_ing_p75_ocup,,float64,100.0,18
+ent_esc_media,derivada,ent_esc_media,,float64,100.0,32
+ent_hrs_media_ocup,derivada,ent_hrs_media_ocup,,float64,100.0,32
+ent_cobertura_ing_%,derivada,ent_cobertura_ing_%,,float64,100.0,32
+ent_tasa_informalidad,derivada,ent_tasa_informalidad,,float64,100.0,32
+ent_acceso_salud,derivada,ent_acceso_salud,,float64,100.0,32
+ent_ing_mediana_sm,derivada,ent_ing_mediana_sm,,float64,100.0,24
+mun_n_muestra,derivada,mun_n_muestra,,int64,100.0,437
+mun_pob_expandida,derivada,mun_pob_expandida,,float64,100.0,1032
+mun_pob_ocupada,derivada,mun_pob_ocupada,,float64,100.0,1018
+mun_tasa_desocup,derivada,mun_tasa_desocup,,float64,100.0,531
+mun_tasa_particip,derivada,mun_tasa_particip,,float64,100.0,882
+mun_ing_medio_ocup,derivada,mun_ing_medio_ocup,,float64,100.0,1036
+mun_ing_mediana_ocup,derivada,mun_ing_mediana_ocup,,float64,100.0,391
+mun_ing_p25_ocup,derivada,mun_ing_p25_ocup,,float64,100.0,499
+mun_ing_p75_ocup,derivada,mun_ing_p75_ocup,,float64,100.0,507
+mun_esc_media,derivada,mun_esc_media,,float64,100.0,1019
+mun_hrs_media_ocup,derivada,mun_hrs_media_ocup,,float64,100.0,1010
+mun_cobertura_ing_%,derivada,mun_cobertura_ing_%,,float64,100.0,646
+mun_tasa_informalidad,derivada,mun_tasa_informalidad,,float64,100.0,815
+mun_acceso_salud,derivada,mun_acceso_salud,,float64,100.0,780
+mun_ing_mediana_sm,derivada,mun_ing_mediana_sm,,float64,100.0,455
+tloc_n_muestra,derivada,tloc_n_muestra,,int64,100.0,4
+tloc_pob_expandida,derivada,tloc_pob_expandida,,float64,100.0,4
+tloc_pob_ocupada,derivada,tloc_pob_ocupada,,float64,100.0,4
+tloc_tasa_desocup,derivada,tloc_tasa_desocup,,float64,100.0,4
+tloc_tasa_particip,derivada,tloc_tasa_particip,,float64,100.0,4
+tloc_ing_medio_ocup,derivada,tloc_ing_medio_ocup,,float64,100.0,4
+tloc_ing_mediana_ocup,derivada,tloc_ing_mediana_ocup,,float64,100.0,4
+tloc_ing_p25_ocup,derivada,tloc_ing_p25_ocup,,float64,100.0,4
+tloc_ing_p75_ocup,derivada,tloc_ing_p75_ocup,,float64,100.0,4
+tloc_esc_media,derivada,tloc_esc_media,,float64,100.0,4
+tloc_hrs_media_ocup,derivada,tloc_hrs_media_ocup,,float64,100.0,4
+tloc_cobertura_ing_%,derivada,tloc_cobertura_ing_%,,float64,100.0,4
+tloc_tasa_informalidad,derivada,tloc_tasa_informalidad,,float64,100.0,4
+tloc_acceso_salud,derivada,tloc_acceso_salud,,float64,100.0,4
+tloc_ing_mediana_sm,derivada,tloc_ing_mediana_sm,,float64,100.0,4
+mun_ing_mediana_shrunk,derivada,mun_ing_mediana_shrunk,,float64,100.0,948
