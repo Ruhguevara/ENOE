@@ -1,0 +1,140 @@
+NOMBRE_CAMPO,LONGITUD,TIPO,NEMÓNICO,CATÁLOGO,RANGO_CLAVES     
+Ciudad autorrepresentada,2,C,cd_a,cd_a,"01-52, 81-86"
+Clave de la entidad,2,C,cve_ent,cve_ent,[01-32]
+Control,5,C,con,,00001-99999
+Unidad primaria de muestreo,7,C,upm,,0000001-9999999
+Distribución semanal,3,C,d_sem,,"Primer dígito 1-5, Segundo y tercer dígito 01-13"
+Número progresivo de la vivienda,4,C,n_pro_viv,,0001-9999
+Vivienda Seleccionada,2,C,v_sel,v_sel,[01-99]
+Número de hogar,1,C,n_hog,n_hog,[1-9]
+Hogar mudado,1,C,h_mud,h_mud,0-4
+Número de entrevista o visita,1,C,n_ent,n_ent,[1-5]
+Periodo,3,C,per,,"Primer dígito 1-4, Segundo y tercer dígito 00-99"
+Número de renglón,2,C,n_ren,n_ren,[01-30]
+Edad,2,C,eda,eda,"12-97,98"
+Renglón del Informante,2,C,n_inf,n_inf,"01-30,97,99"
+Pregunta 6 Opción 1: por comisión?,2,C,p6_1,p6_1,"01,blanco"
+"Pregunta 6 Opción 2: a destajo (por pieza), servicio u obra realizada?",2,C,p6_2,p6_2,"02,blanco"
+Pregunta 6 Opción 3: por honorarios?,2,C,p6_3,p6_3,"03,blanco"
+Pregunta 6 Opción 4: con propinas?,2,C,p6_4,p6_4,"04,blanco"
+Pregunta 6 Opción 5: con bonos de compensación o de productividad?,2,C,p6_5,p6_5,"05,blanco"
+Pregunta 6 Opción 6: con vales o productos comercializables?,2,C,p6_6,p6_6,"06,blanco"
+"Pregunta 6 Opción 7: Solo recibe sueldo, salario o jornal",2,C,p6_7,p6_7,"07,blanco"
+Pregunta 6 Opción 8: Solo lo que le deja su negocio,2,C,p6_8,p6_8,"08,blanco"
+Pregunta 6 Opción 9: no le pagan ni recibe ingresos (incluye autoconsumo agropecuario),2,C,p6_9,p6_9,"09,blanco"
+Pregunta 6 Opción 10: ninguna de las anteriores,2,C,p6_10,p6_10,"10,blanco"
+Pregunta 6 Opción 99: no sabe,2,C,p6_99,p6_99,"99,blanco"
+"Pregunta 6a Opción 1: a sueldo, salario o jornal?",1,C,p6a1,p6a1,"1,blanco"
+Pregunta 6a Opción 2: por ganancias o de lo que deja su negocio?,1,C,p6a2,p6a2,"2,blanco"
+Pregunta 6a Opción 3: no le pagan ni recibe ingresos (incluye autoconsumo agropecuario),1,C,p6a3,p6a3,"3,blanco"
+Pregunta 6a Opción 4: ninguna de las anteriores,1,C,p6a4,p6a4,"4,blanco"
+Pregunta 6a Opción 9: no sabe,1,C,p6a9,p6a9,"9,blanco"
+Pregunta 6b ¿Cada cuándo obtiene ... sus ingresos o le pagan?,1,C,p6b1,p6b1,[1-8]
+Pregunta 6b Cantidad en  pesos,6,C,p6b2,,"000001-999998,999999"
+"Pregunta 6c Actualmente el salario mínimo mensual es de $ , ¿la cantidad que ... Obtiene al mes por su trabajo es",1,C,p6c,p6c,[1-9]
+Pregunta 6d Por parte de este trabajo ¿... tiene acceso a atención médica en,1,C,p6d,p6d,"1-6,9"
+"Pregunta 6e ¿En qué municipio (alcaldía) está el negocio, empresa o lugar donde trabajó ... la semana pasada?",1,C,p6e,p6e,[1-3]
+"Pregunta 6e Clave del municipio (alcaldía) donde está el negocio, empresa o lugar donde trabajó ... la semana pasada",3,C,p6e_c,,Catálogo y clasificación de entidades y países
+Pregunta 6f ¿En qué estado o país?,1,C,p6f,p6f,[1-4]
+Pregunta 6f Clave del estado o país,3,C,p6f_c,,Catálogo y clasificación de entidades y países
+"Pregunta 6g ¿El lugar donde trabajó ... la semana pasada, es el mismo donde está el negocio, la empresa o el lugar para el que trabaja?",1,C,p6g,p6g,[1-3]
+"Pregunta 6h ¿En qué municipio (alcaldía) está el negocio, empresa o el lugar para la que trabaja ...?",1,C,p6h,p6h,[1-3]
+"Pregunta 6h Clave del municipio (alcaldía) donde está el negocio, empresa o el lugar para la que trabaja ...",3,C,p6h_c,,Catálogo y clasificación de entidades y países
+Pregunta 6i ¿En qué estado o país?,1,C,p6i,p6i,[1-4]
+Pregunta 6i Clave del estado o país,3,C,p6i_c,,Catálogo y clasificación de entidades y países
+"Pregunta 7 Además del trabajo principal del que ya hablamos, ¿... tiene o realiza otra actividad como",1,C,p7,p7,"1-7,9"
+Pregunta 7a ¿Cuáles son las tareas o funciones principales que … desempeña en su segundo trabajo?,4,C,p7a,p7a,0001-9999
+"Pregunta 7b ¿Cuál es el nombre de la empresa, negocio o institución para la que ... realiza este otro trabajo?",1,C,p7b,p7b,"1-4,9"
+"Pregunta 7c ¿A qué se dedica esta empresa, negocio o institución donde trabaja o ayuda ... en su segundo trabajo?",4,C,p7c,p7c,0001-9999
+"Pregunta 7d Por parte de este segundo trabajo, ¿... tiene acceso a atención médica en",1,C,p7d,p7d,"1-4,9"
+Pregunta 7e ¿Aproximadamente cuántas personas laboran donde trabaja ... en su segundo empleo?,2,C,p7e,p7e,"01-11,99"
+Pregunta 7f ¿Cuántos días y cuántas horas le dedicó ... a su segundo trabajo la semana pasada?,1,C,p7f,p7f,[1-2]
+Pregunta 7f,1,C,p7f_dias,,"1-7,9"
+Pregunta 7f,2,C,p7f_horas,,[01-99]
+Pregunta 7g Opción 1: en efectivo,1,C,p7g1,p7g1,"1,blanco"
+Pregunta 7g Opción 2: en especie,1,C,p7g2,p7g2,"2,blanco"
+Pregunta 7g Opción 3: no le pagan ni recibe ingresos (incluye autoconsumo agropecuario),1,C,p7g3,p7g3,"3,blanco"
+Pregunta 7g Opción 9: no sabe,1,C,p7g9,p7g9,"9,blanco"
+Pregunta 7g Cantidad en  pesos,6,C,p7gcan,,000001-999999
+Pregunta 8 Opción 1: buscar otro trabajo en otro país o hacer preparativos para cruzar la frontera?,1,C,p8_1,p8_1,"1,blanco"
+Pregunta 8 Opción 2: buscar otro trabajo aquí en el país?,1,C,p8_2,p8_2,"2,blanco"
+"Pregunta 8 Opción 3: poner un negocio o realizar una actividad por su cuenta, sin poder todavía comenzar?",1,C,p8_3,p8_3,"3,blanco"
+"Pregunta 8 Opción 4: entonces, ¿no ha tratado de buscar otro trabajo?",1,C,p8_4,p8_4,"4,blanco"
+Pregunta 8 Opción 9: no sabe,1,C,p8_9,p8_9,"9,blanco"
+Pregunta 8a Lo que ... intenta ¿es,1,C,p8a,p8a,"1-4,9"
+Pregunta 8b ¿Cuál es el motivo principal por el que ... está buscando otro trabajo?,2,C,p8b,p8b,"01-09,99"
+Pregunta 9 Alguna vez ... se quedó sin trabajo o negocio y tuvo que buscar otro?,1,C,p9,p9,"1-2,9"
+"Pregunta 9a La última vez que ... se quedó sin trabajo, ¿cuál era la situación?",1,C,p9a,p9a,[1-9]
+"Pregunta 9b En esa ocasión,",1,C,p9b,p9b,"1-7,9"
+Pregunta 9c ¿Cuál fue el motivo principal?,2,C,p9c,p9c,"01-10,99"
+Pregunta 9d ¿Cuál fue el motivo principal para separarse de ese trabajo?,2,C,p9d,p9d,"01-12,99"
+Pregunta 9e ¿Cuál fue el motivo principal por el que ... se vio obligado a dejar ese negocio o actividad por su cuenta?,2,C,p9e,p9e,"01-14,99"
+Pregunta 9f ¿En qué año ... terminó (o suspendió) ese trabajo u oficio?,4,C,p9f_anio,,"1900-Año actual,9999"
+Pregunta 9f,2,C,p9f_mes,p9f_mes,"01-12,99"
+Pregunta 9f,1,C,p9f,p9f,"1-3,9"
+Pregunta 9g ¿Cuáles eran las tareas o funciones principales que … desempeñaba en ese trabajo?,4,C,p9g,p9g,0001-9999
+"Pregunta 9h ¿Cuál es el nombre de la empresa, negocio o institución para la que ... realizaba ese trabajo?",1,C,p9h,p9h,"1-4,9"
+Pregunta 9h,1,C,p9h_1,,[1-2]
+"Pregunta 9i ¿A que se dedica o dedicaba la empresa, negocio o institución donde trabajaba?",4,C,p9i,p9i,0001-9999
+Pregunta 9j,1,C,p9j,p9j,"1-2,9"
+"Pregunta 9k Por parte de ese trabajo, ¿... tenía acceso a atención médica en",1,C,p9k,p9k,"1-6,9"
+Pregunta 9l Opción 1: aguinaldo?,1,C,p9l1,p9l1,"1,blanco"
+Pregunta 9l Opción 2: vacaciones con goce de sueldo?,1,C,p9l2,p9l2,"2,blanco"
+Pregunta 9l Opción 3: reparto de utilidades?,1,C,p9l3,p9l3,"3,blanco"
+Pregunta 9l Opción 4: ninguna de las anteriores,1,C,p9l4,p9l4,"4,blanco"
+Pregunta 9l Opción 5: no le daban nada,1,C,p9l5,p9l5,"5,blanco"
+Pregunta 9l Opción 9: no sabe,1,C,p9l9,p9l9,"9,blanco"
+Pregunta 9m Opción 1: en efectivo,1,C,p9m1,p9m1,"1,blanco"
+Pregunta 9m Opción 2: en especie,1,C,p9m2,p9m2,"2,blanco"
+Pregunta 9m Opción 3: no recibía ingresos,1,C,p9m3,p9m3,"3,blanco"
+Pregunta 9m Opción 9: no sabe,1,C,p9m9,p9m9,"9,blanco"
+Pregunta 9m,6,C,p9mcan,,000001-999999
+Pregunta 9n Opción 1: liquidación o indemnización de un empleo?,1,C,p9n1,p9n1,"1,blanco "
+"Pregunta 9n Opción 2: la venta, traspaso o liquidación de un negocio?",1,C,p9n2,p9n2,"2,blanco"
+Pregunta 9n Opción 3: pensión o jubilación?,1,C,p9n3,p9n3,"3,blanco"
+Pregunta 9n Opción 4: seguro de desempleo?,1,C,p9n4,p9n4,"4,blanco"
+Pregunta 9n Opción 5: seguro de separación individual?,1,C,p9n5,p9n5,"5,blanco"
+Pregunta 9n Opción 6: no cuenta con ningún ingreso derivado de un trabajo anterior,1,C,p9n6,p9n6,"6,blanco"
+Pregunta 9n Opción 9: no sabe,1,C,p9n9,p9n9,"9,blanco"
+Pregunta 10 Opción 1: beca de capacitación o ayuda económica para encontrar trabajo?,1,C,p10_1,p10_1,"1,blanco"
+"Pregunta 10 Opción 2: apoyo para realizar una actividad por su cuenta (Procampo, microcréditos)?",1,C,p10_2,p10_2,"2,blanco"
+"Pregunta 10 Opción 3: ayuda de otro programa de gobierno (beca de estudio, despensa)?",1,C,p10_3,p10_3,"3,blanco"
+Pregunta 10 Opción 4: no ha recibido nada del gobierno,1,C,p10_4,p10_4,"4,blanco"
+Pregunta 10 Opción 9: no sabe,1,C,p10_9,p10_9,"9,blanco"
+Pregunta 10a Opción 1: en el extranjero?,1,C,p10a1,p10a1,"1,blanco"
+Pregunta 10a Opción 2: en otro estado del país?,1,C,p10a2,p10a2,"2,blanco"
+Pregunta 10a Opción 3: en este mismo estado?,1,C,p10a3,p10a3,"3,blanco"
+Pregunta 10a Opción 4: no ha recibido nada,1,C,p10a4,p10a4,"4,blanco"
+Pregunta 10a Opción 9: no sabe,1,C,p10a9,p10a9,"9,blanco"
+Pregunta 10b ¿... cuenta con el Seguro Popular de Salud?,1,C,p10b,p10b,"1-2,9"
+Pregunta 11 Opción 1: estudiar o tomar cursos de capacitación?,1,C,p11_1,p11_1,"1,blanco"
+Pregunta 11 Horas,2,C,p11_h1,,"00-99,blanco"
+Pregunta 11 Minutos,2,C,p11_m1,,"00-59,blanco"
+"Pregunta 11 Opción 2: cuidar o atender sin pago, de manera exclusiva a niños, ancianos, enfermos o discapacitados?",1,C,p11_2,p11_2,"2,blanco"
+Pregunta 11 Horas,2,C,p11_h2,,"00-99,blanco"
+Pregunta 11 Minutos,2,C,p11_m2,,"00-59,blanco"
+"Pregunta 11 Opción 3: realizar compras, llevar cuentas o realizar trámites para el hogar o encargarse de la seguridad?",1,C,p11_3,p11_3,"3,blanco"
+Pregunta 11 Horas,2,C,p11_h3,,"00-99,blanco"
+Pregunta 11 Minutos,2,C,p11_m3,,"00-59,blanco"
+"Pregunta 11 Opción 4: llevar a algún miembro del hogar a la escuela, cita médica u otra actividad?",1,C,p11_4,p11_4,"4,blanco"
+Pregunta 11 Horas,2,C,p11_h4,,"00-99,blanco"
+Pregunta 11 Minutos,2,C,p11_m4,,"00-59,blanco"
+Pregunta 11 Opción 5: construir o ampliar su vivienda?,1,C,p11_5,p11_5,"5,blanco"
+Pregunta 11 Horas,2,C,p11_h5,,"00-99,blanco"
+Pregunta 11 Minutos,2,C,p11_m5,,"00-59,blanco"
+"Pregunta 11 Opción 6: reparar o dar mantenimiento a su vivienda, muebles, aparatos electrodomésticos o vehículos?",1,C,p11_6,p11_6,"6,blanco"
+Pregunta 11 Horas,2,C,p11_h6,,"00-99,blanco"
+Pregunta 11 Minutos,2,C,p11_m6,,"00-59,blanco"
+Pregunta 11 Opción 7: realizar los quehaceres de su hogar?,1,C,p11_7,p11_7,"7,blanco"
+Pregunta 11 Horas,2,C,p11_h7,,"00-99,blanco"
+Pregunta 11 Minutos,2,C,p11_m7,,"00-59,blanco"
+Pregunta 11 Opción 8: prestar servicios gratuitos a su comunidad?,1,C,p11_8,p11_8,"8,blanco"
+Pregunta 11 Horas,2,C,p11_h8,,"00-99,blanco"
+Pregunta 11 Minutos,2,C,p11_m8,,"00-59,blanco"
+Urbano/Rural,1,N,ur,ur,[1-2]
+Tipo de entrevista,1,C,tipo,tipo,[1-2]
+Mes calendario,2,C,mes_cal,mes_cal,"01-12, 96-99"
+Ponderador trimestral,6,N,fac_tri,,1-999999
+Ponderador mensual,6,N,fac_men,,1-999999
+Clave del municipio,3,C,cve_mun,cve_mun,001-575
+Clave geoestadística,5,C,cvegeo,,01001-32999

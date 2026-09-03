@@ -1,0 +1,12 @@
+CVE,DESCRIP
+1,"Acudió directamente al lugar de trabajo (fábrica, tienda, taller)"
+2,Acudió a una agencia o bolsa de trabajo privada
+3,Acudió a un servicio público de colocación
+4,"Por medio de un programa de empleo temporal del gobierno (federal, estatal y/o municipal)"
+5,Acudió a un sindicato o gremio
+6,Por internet
+7,"Por medio de un anuncio en un lugar público o en medios de comunicación (periódico, radio)"
+8,"Por medio de un familiar, amigo o conocido"
+9,Le ofrecieron el empleo
+10,Otro medio
+99,No sabe
